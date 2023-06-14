@@ -1,9 +1,12 @@
 /* 
     General Styles
 */
+.search-btn{
+    width: 100px;
+}
 .logo{
     font-family: "Silkscreen", sans-serif;
-    background: linear-gradient(1.25turn ,#3851b9, #32119c);
+    background: linear-gradient(1.25turn ,#ffffff, #ffffff);
 }
 .footer{
     font-family: "Lobster", sans-serif;
@@ -11,10 +14,10 @@
     color: antiquewhite;
 }
 body{
-    background: linear-gradient(#273d5f, #32119c)fixed no-repeat;
+    background: linear-gradient(#ffffff, #235dff)fixed no-repeat;
 }
 .navbar{
-    background: linear-gradient(1.25turn ,#3851b9, #32119c);
+    background: linear-gradient(1.25turn ,#ffffff, #ffffff);
 }
 .wholecard{
     background: linear-gradient(217deg, rgba(100, 154, 201, 0.8), rgba(255,0,0,0)),            

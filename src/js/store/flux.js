@@ -30,7 +30,6 @@ const getState = ({ getStore, getActions, setStore }) => {
 				catch (error){
 					console.error(error)
 				}
-
 			},
 			fetchStarWarsPeople:async(id, page = 1, limit = 21) =>{
 				let baseUrl = `https://www.swapi.tech/api/people/${id}?page=${page}&limit=${limit}`
@@ -49,6 +48,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 				try{
 					let response = await fetch(baseUrl)
 					if(!response.ok) return response.status
+
 					let data = await response.json()
 					let element = {}
 					element[Id] = {...data.result.properties, img:`https://starwars-visualguide.com/assets/img/${widget=="people"?"characters":widget}/${Id}.jpg`}
