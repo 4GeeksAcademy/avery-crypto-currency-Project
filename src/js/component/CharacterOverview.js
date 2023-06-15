@@ -21,8 +21,8 @@ export const CharacterOverview = () =>{
 
   return (
     <div className="container text-center">
-        <h1 className="mx-auto">Characters</h1>
-        <div className="row row-cols-4">
+        <h1 className="mx-auto">Crypto Currencies</h1>
+        <div className="row row-cols-1">
             {store[widget]?.map(item=>(
             <div key={item.uid} className="wholecard col  my-3 rounded">
                 <img src={item.img} onError={imgError} className="card-img-top mx-0 p-0 overflow-hidden my-1 rounded" alt="CharacterImg"></img>

@@ -26,7 +26,7 @@ export const CharacterDetail = () =>{
 }
 
   return (
-    <div className="wholecard w-100 card rounded mx-auto" style={{maxWidth:"40rem"}}>
+    <div className="wholecard w-100 card rounded mx-auto" style={{maxWidth:"rem"}}>
         {!data?
             <h1 className="d-flex justify-content-center align-items-center text-center m-5">
             Patience you must have, my young Padawan.

@@ -16,10 +16,11 @@ export const Home = () => {
 	}, [])
 	return(
 	<>
+		
 		<Link to="/people/">
-			<h1>
-				Characters
-			</h1>
+			<h2>
+				Crypto Currencies
+			</h2>
 		</Link>
 		<div className="container-fluid overflow-scroll">
 			<CharacterCard 

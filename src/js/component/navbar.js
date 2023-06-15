@@ -6,11 +6,9 @@ export const Navbar = () => {
 	const {store, actions} = useContext(Context);
 
 	return (
-		<nav className="navbar navbar-light bg-light mb-3 sticky-top">
+		<nav className="navbar navbar-light bg- mb-3 sticky-top">
 			<Link to="/">
-			<div className="logo">
-				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/100px-Star_Wars_Logo.svg.png"></img>
-			</div>
+			<h1>Crypto</h1>
 			</Link>
 			<div className="dropstart btn-group ml-auto pe-5">
 				<button className="search-btn" type="button" aria-label="Menu">
